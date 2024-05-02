@@ -1,4 +1,4 @@
-module github.com/flyqie/godbus/v5
+module github.com/sakura-remote-desktop/godbus/v5
 
 go 1.12
 

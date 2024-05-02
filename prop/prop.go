@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/flyqie/godbus/v5"
-	"github.com/flyqie/godbus/v5/introspect"
+	"github.com/sakura-remote-desktop/godbus/v5"
+	"github.com/sakura-remote-desktop/godbus/v5/introspect"
 )
 
 // EmitType controls how org.freedesktop.DBus.Properties.PropertiesChanged is

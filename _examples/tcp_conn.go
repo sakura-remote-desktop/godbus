@@ -5,7 +5,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/flyqie/godbus/v5"
+	"github.com/sakura-remote-desktop/godbus/v5"
 )
 
 // In order to enable TCP connections add the following configuration

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/flyqie/godbus/v5"
+import "github.com/sakura-remote-desktop/godbus/v5"
 
 func main() {
 	conn, err := dbus.ConnectSessionBus()

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/flyqie/godbus/v5"
+	"github.com/sakura-remote-desktop/godbus/v5"
 )
 
 type Foo struct {

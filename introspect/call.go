@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"strings"
 
-	"github.com/flyqie/godbus/v5"
+	"github.com/sakura-remote-desktop/godbus/v5"
 )
 
 // Call calls org.freedesktop.Introspectable.Introspect on a remote object
