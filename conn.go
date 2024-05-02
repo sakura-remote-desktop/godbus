@@ -7,6 +7,7 @@ import (
 	"os"
 	"strings"
 	"sync"
+	"net"
 )
 
 var (
@@ -261,6 +262,13 @@ func WithContext(ctx context.Context) ConnOption {
 // NewConn creates a new private *Conn from an already established connection.
 func NewConn(conn io.ReadWriteCloser, opts ...ConnOption) (*Conn, error) {
 	return newConn(genericTransport{conn}, opts...)
+}
+
+// NewUnixFdConn creates a new private *Conn from an already established unix domain socket fd connection.
+func NewUnixFdConn(conn *net.UnixConn, opts ...ConnOption) (*Conn, error) {
+	tr := new(unixTransport)
+	tr.UnixConn = conn
+	return newConn(tr, opts...)
 }
 
 // NewConnHandler creates a new private *Conn from an already established connection, using the supplied handlers.

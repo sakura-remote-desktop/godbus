@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/godbus/dbus/v5"
-	"github.com/godbus/dbus/v5/introspect"
+	"github.com/flyqie/godbus/v5"
+	"github.com/flyqie/godbus/v5/introspect"
 )
 
 const intro = `

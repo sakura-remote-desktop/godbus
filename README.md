@@ -1,4 +1,4 @@
-![Build Status](https://github.com/godbus/dbus/workflows/Go/badge.svg)
+![Build Status](https://github.com/flyqie/godbus/workflows/Go/badge.svg)
 
 dbus
 ----
@@ -17,14 +17,14 @@ D-Bus message bus system.
 This packages requires Go 1.12 or later. It can be installed by running the command below:
 
 ```
-go get github.com/godbus/dbus/v5
+go get github.com/flyqie/godbus/v5
 ```
 
 ### Usage
 
 The complete package documentation and some simple examples are available at
-[pkg.go.dev](https://pkg.go.dev/github.com/godbus/dbus/v5). Also, the
-[_examples](https://github.com/godbus/dbus/tree/master/_examples) directory
+[pkg.go.dev](https://pkg.go.dev/github.com/flyqie/godbus/v5). Also, the
+[_examples](https://github.com/flyqie/godbus/tree/master/_examples) directory
 gives a short overview over the basic usage. 
 
 #### Projects using godbus

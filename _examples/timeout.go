@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/godbus/dbus/v5"
+	"github.com/flyqie/godbus/v5"
 )
 
 func main() {
